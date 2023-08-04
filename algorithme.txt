@@ -91,3 +91,25 @@ Début
  Fin pour
 Fin
 
+
+Exercice 6 :
+
+Algoritme nombre;
+
+Var:
+min,max,index:entiers;
+Début 
+  Ecrire "Veuillez entrer un nombre";
+  Lire max;
+  index ← 19;
+ Repeter
+   Ecrire "Veuillez entrer un nouveau nombre";
+   Lire min;
+  Si (min > max) alors:
+   max ← min;
+  Fin si
+   index ← - 1; 
+ jusqu'a (index - 1)
+  Ecrire "Le plus grand de ces nombres est",max;
+Fin
+
