@@ -39,3 +39,22 @@ Début
   Ecrire "Factoriel de",a"est";fact;
  Fin si
 Fin
+
+
+Exercice 3 :
+
+Algorithme recherche_nombre;
+
+Var:
+choix:entier;
+Début
+ Repeter
+   Ecrire "Veuillez entrer un choix";
+   Lire choix;
+  Si (choix < 10) alors:
+   Ecrire "Plus grang";
+  Sinon si (choix > 20) alors:
+   Ecrire "Plus petit";
+  Fin si
+ jusqu'a (choix > 10 and choix < 20)
+Fin
