@@ -1,0 +1,19 @@
+Resolution des exercices en Algorithme
+
+
+Exercice 1 : 
+
+Algorithme somme;
+
+Var:
+som,n,i:entiers;
+Début
+  Ecrire "Entrer un nombre";
+  Lire n;
+  som ← 0
+  Pour i → 1 à n faire :
+  som ← som + i;
+Fin pour
+  Ecrire "La somme de n est";som;
+Fin
+
