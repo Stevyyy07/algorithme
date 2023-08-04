@@ -17,3 +17,25 @@ Fin pour
   Ecrire "La somme de n est";som;
 Fin
 
+
+Exercice 2 :
+
+Algoritme factoriel;
+
+Var:
+i,a,fact:entiers;
+Début
+  Ecrire "Entrer un nombre";
+  Lire a;
+  fact ← 1
+ Si a=0 alors:
+  Ecrire"0!=1";
+ Sinon si a<0 alors:
+  Ecrire "Erreur";
+ Sinon
+  Pour i → 1 à a faire:
+  fact ← fact * i;
+ Fin pour
+  Ecrire "Factoriel de",a"est";fact;
+ Fin si
+Fin
